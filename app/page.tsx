@@ -1,7 +1,6 @@
 import SimpleLogo from '@/app/ui/simple-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
@@ -16,7 +15,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-lg text-gray-800 lg:text-3xl lg:leading-normal`}
           >
-            <strong>Welcome to Simple Invoice.</strong> The world's simplest way
+            <strong>Welcome to Simple Invoice.</strong> The world`s simplest way
             to invoice customers,{' '}
             <a href="/pages/aboutus" className="text-blue-500">
               from your phone or laptop. Save time, stay organized.{' '}
