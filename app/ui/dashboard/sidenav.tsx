@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
-import AcmeLogo from '@/app/ui/acme-logo';
+import SimpleLogo from '@/app/ui/simple-logo';
 import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function SideNav() {
   return (
     <div className="flex h-full flex-col px-3 py-4 lg:px-2">
       <Link
-        className="mb-2 flex h-20 items-end justify-start rounded-md p-4 lg:h-40"
+        className="mb-2 flex h-20 items-end justify-start rounded-md p-4 lg:h-40 bg-black"
         href="/"
       >
-        <div className="w-32 text-white lg:w-40 hover:text-black">
-          <AcmeLogo />
+        <div className="w-32 text-white lg:w-40 ">
+          <SimpleLogo />
         </div>
       </Link>
       <div className="flex grow flex-row justify-between space-x-2 lg:flex-col lg:space-x-0 lg:space-y-2">
